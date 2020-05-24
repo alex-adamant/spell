@@ -14,6 +14,7 @@ app.use(express.static(path.join(__dirname, 'dist')))
 
 // Handles any requests that don't match the ones above
 app.get('*', (req, res) => {
+  console.log('incoming')
   res.sendFile(path.join(__dirname + 'dist/index.html'))
 })
 
