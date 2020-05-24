@@ -1,8 +1,11 @@
-var express = require('express')
-var app = express()
-app.get('/', function (res, req) {
-  req.send('Hello world(test2)!\n')
+const express = require('express')
+
+const app = express()
+
+app.get('/', (res, req) => {
+  req.send('Hello, world!')
 })
-var port = 8080
+
+const port = 8080
 app.listen(port)
 console.log('Listening on port', port)
