@@ -7,7 +7,7 @@ fastify.get('/', async (request, reply) => {
   return { hello: 'world' }
 })
 
-fastify.listen(9000, 'https://13.49.77.84/', (err, address) => {
+fastify.listen(9000, '13.49.77.84', (err, address) => {
   if (err) throw err
   console.log(`Server is listening on ${address}`)
 })
