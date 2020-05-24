@@ -15,13 +15,8 @@ module.exports = {
         loader: 'url-loader',
       },
       {
-        test: /\.(png|jpg|gif)$/,
-        use: [
-          {
-            loader: 'url-loader',
-            options: { limit: 8000, name: 'images/[hash:8]-[name].[ext]' },
-          },
-        ],
+        test: /\.(png|jpg|gif|jpeg)$/,
+        use: [{ loader: 'file-loader' }],
       },
     ],
   },
