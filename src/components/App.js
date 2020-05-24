@@ -30,12 +30,12 @@ const StyledImage = styled.img`
 `
 
 const SyllableContainer = styled.div`
-  width: 1000px;
+  width: 800px;
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-top: 100px;
-  justify-content: space-between;
+  justify-content: space-around;
 `
 
 const Syllable = styled.div`
