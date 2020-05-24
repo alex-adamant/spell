@@ -8,6 +8,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
   width: 100vw;
   height: 100vh;
 `
@@ -17,7 +18,6 @@ const ImageContainer = styled.div`
   flex-direction: row;
   align-items: center;
   width: 800px;
-  margin-top: 100px;
   justify-content: space-around;
 `
 
@@ -34,7 +34,6 @@ const SyllableContainer = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 100px;
   justify-content: space-around;
 `
 
@@ -62,7 +61,6 @@ const PlaceholderContainer = styled.div`
 
 const PlaceholderBox = styled.div`
   width: 300px;
-  height: 200px;
   display: flex;
   flex-direction: row;
   align-items: center;
